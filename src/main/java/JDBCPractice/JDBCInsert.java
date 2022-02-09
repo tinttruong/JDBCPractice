@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class JDBCInsert {
-	public static void main(String[] args) {
+	public static void JDBCI() {
 	try {
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "sherlockholmes");
 		Statement stmt = conn.createStatement();
@@ -20,6 +20,7 @@ public class JDBCInsert {
 		e.printStackTrace();
 	}
 }
-
 }
+
+
 
