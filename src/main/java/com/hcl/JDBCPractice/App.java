@@ -1,4 +1,4 @@
-package JDBCPractice;
+package com.hcl.JDBCPractice;
 
 public class App {
 
@@ -6,7 +6,9 @@ public class App {
 		JDBCSelect.JDBCSe();
 		JDBCDelete.JDBCDel();
 		JDBCInsert.JDBCI();
-		
+		JDBCSelectAge.JDBCSA();
+		JDBCUpdate.JDBCUp();
+		JDBCSelectCondition.JDBCSelectCond();
 
 	}
 

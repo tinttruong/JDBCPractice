@@ -1,4 +1,4 @@
-package JDBCPractice;
+package com.hcl.JDBCPractice;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
